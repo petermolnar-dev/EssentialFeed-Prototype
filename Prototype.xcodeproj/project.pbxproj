@@ -28,6 +28,7 @@
 		C7B16BDB2A1F55CD00A4E9DA /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		C7B16BDD2A1F57C900A4E9DA /* FeedImageViewModel+PrototypeData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FeedImageViewModel+PrototypeData.swift"; sourceTree = "<group>"; };
 		C7B16BDF2A1F588400A4E9DA /* FeedImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedImageCell.swift; sourceTree = "<group>"; };
+		C7B16C1A2A2268E600A4E9DA /* libboringssl.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libboringssl.tbd; path = usr/lib/libboringssl.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +47,7 @@
 			children = (
 				C7A476642A0414D10021EAF2 /* Prototype */,
 				C7A476632A0414D10021EAF2 /* Products */,
+				C7B16C192A2268E600A4E9DA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,6 +73,14 @@
 				C7B16BDF2A1F588400A4E9DA /* FeedImageCell.swift */,
 			);
 			path = Prototype;
+			sourceTree = "<group>";
+		};
+		C7B16C192A2268E600A4E9DA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C7B16C1A2A2268E600A4E9DA /* libboringssl.tbd */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
